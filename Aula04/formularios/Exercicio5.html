@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+</head>
+
+
+<body> 
+    <form>
+        <fieldset id="personal">
+            <legend> Indentificação do usuário</legend>
+            <p> <label for="nome_id">Nome:</label>
+            <input type="text" name="nome" id="nome_id"></p>
+            <p><label for="password_id">Senha: </label>
+            <input type="password" name="senha" id="password_id"></p>
+            <p><label for="cpf_id">CPF:</label>
+            <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"></p>
+
+            <fieldset id="genero">
+                <legend> Sexo</legend>
+            <p><label for="sexo_id">Masculino</label>
+            <input type="radio" name="sexoM" id="sexo_id"></p>
+            <p><label for="sexo_id">Feminino</label>
+                <input type="radio" name="sexoF" id="sexo_id"></p>
+        </fieldset>
+    </fieldset>
+
+
+        <button type="submit">
+                Enviar
+        </button>
+    </form>
+
+</body>
+
+</html>
+
